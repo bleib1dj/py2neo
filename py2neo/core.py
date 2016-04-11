@@ -53,7 +53,7 @@ http.default_encoding = "UTF-8"
 _headers = {
     None: [
         ("User-Agent", user_agent(PRODUCT)),
-        ("X-Stream", "true"),
+        ("X-Stream", "true;format=pretty"),
     ],
 }
 
